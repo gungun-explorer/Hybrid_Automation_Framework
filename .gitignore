@@ -1,0 +1,14 @@
+target/
+bin/
+.idea/
+*.iml
+*.log
+.settings/
+.project
+.classpath
+test-output/
+# Eclipse specific files
+*.launch
+# IntelliJ IDEA specific files
+*.iws
+/logs/
