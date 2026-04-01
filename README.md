@@ -47,6 +47,20 @@ This is a hybrid automation framework designed for web application testing. It i
 - TestNG reports are generated in the `test-output` folder.
 - ExtentReports are generated in the `reports` folder.
 
+## CI/CD with Jenkins
+
+This project includes a Jenkins pipeline for automated build and test execution. To use Jenkins:
+
+1. Ensure Jenkins is installed and has the required plugins (Pipeline, Maven Integration, JUnit, etc.).
+2. Create a new Pipeline job and point it to this repository.
+3. The included `Jenkinsfile` will:
+    - Check out the code
+    - Build the project with Maven
+    - Run TestNG tests
+    - Archive and publish test results
+
+You can view and customize the pipeline in the `Jenkinsfile` at the root of this project.
+
 ## Contributing
 Feel free to contribute by submitting issues or pull requests.
 
