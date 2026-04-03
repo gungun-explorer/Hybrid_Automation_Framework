@@ -1,0 +1,8 @@
+TestCase,StepNo,Keyword,LocatorType,LocatorValue,Data
+LoginTest,1,OPEN_BROWSER,,,
+LoginTest,2,NAVIGATE,,https://example.com,
+LoginTest,3,TYPE,id,username,admin
+LoginTest,4,TYPE,id,password,admin123
+LoginTest,5,CLICK,id,loginBtn,
+LoginTest,6,VERIFY_TEXT,xpath,//div[@id='welcome'],Welcome
+LoginTest,7,CLOSE_BROWSER,,,
